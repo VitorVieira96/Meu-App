@@ -43,7 +43,8 @@ function usuarios(){
       { cancelable: true }
     ); 
 
-  const api = 'http://192.168.15.8/apireact/';
+  //const api = 'http://192.168.15.8/apireact/';
+  const api = 'http://192.168.0.14/apireact/';
   const [lista, setLista] = useState([]);
   const [nome, setNome] = useState('');
   const [email, setEmail] = useState('');
